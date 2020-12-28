@@ -7,7 +7,7 @@ import pandas as pd
 from pandas.plotting import scatter_matrix
 
 start = datetime.datetime(2019, 1, 1)
-end = datetime.datetime(2020, 12, 23)
+end = datetime.datetime(2021, 12, 23)
 
 newton = web.DataReader("NEWTON.ST", 'yahoo', start, end)
 vitec = web.DataReader("VTC.L", 'yahoo', start, end)
